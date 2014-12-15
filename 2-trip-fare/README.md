@@ -13,7 +13,7 @@ Instruction
 
     * s3://mda2014/2-trip-fare
 
-3. To run first mapreduce job, create an Amazon EMR cluster with the following configuration (the bootstrap action is very important -- please pay attention to that):
+3. To run first mapreduce job, create an Amazon EMR cluster with the following configuration:
 
         * Termination protection: Yes
         * Logging: Enabled

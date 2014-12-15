@@ -13,7 +13,7 @@ Instruction
 
     * s3://mda2014/5-revenue-location
 
-3. To run first mapreduce job, create an Amazon EMR cluster with the following configuration (the bootstrap action is very important -- please pay attention to that):
+3. To run first mapreduce job, create an Amazon EMR cluster with the following configuration:
 
         * Termination protection: Yes
         * Logging: Enabled
@@ -31,7 +31,7 @@ Instruction
 
 5. Wait for finish. After the job has completed, terminate cluster.
 
-6. To run second mapreduce, create an Amazon EMR cluster with the following configuration:
+6. To run second mapreduce, create an Amazon EMR cluster with the following configuration (the bootstrap action is very important -- please pay attention to that):
         * Termination protection: Yes
         * Logging: Enabled
         * Hadoop distribution: Amazon AMI 3.3.1
